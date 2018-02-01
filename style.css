@@ -1,0 +1,234 @@
+
+
+/* reset*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+input, select, button, textarea {
+	margin: 0; 				
+	font-size: 100%; 			
+	outline: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+nav ul {
+	 list-style:none;
+}
+/* /reset*/
+
+/*base*/
+html {
+	
+
+}
+body {
+ 
+}
+
+.clr{
+	clear:both;
+}
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+	/*base*/
+  
+  						 /*fonts*/
+ @font-face {
+   font-family: infinite-stroke; 
+   src: url(fonts/infinite-stroke.bolder.otf); 
+   }
+
+ @font-face {
+   font-family: Ebrima; 
+   src: url(fonts/ebrima.ttf); 
+   }
+						/*end fnt*/
+.karkas{
+margin: 0 auto;  max-width: 1920px;
+font-family: Ebrima, sans-serif;	
+}
+
+          												 						 /*HEADER*/
+
+
+header{
+	position: relative; background: url(images/background-color.png) 0 0 no-repeat; width: 100%; height: 415px; z-index: 100; margin-bottom:-100px;}
+
+.navblock{
+display:block; width: 48%; height: 150px; padding-top: 80px; margin: 0 auto;}
+	.navigation{
+	display: inline-block;}
+			.nav-item a{ font-size: 2.5em; color: #fff; text-align: center;}
+					.nav-item a:hover{ color: #bf4f42; text-decoration: none; }
+	.logotext{
+display: block; width: 600px; font-family: infinite-stroke, sans-serif; font-size: 6.5em; margin: 0 auto; color: #fff; padding: 0; line-height: 0.8;}
+		.logofirst{
+			padding-top: 50px;}
+			.logosecond { margin-bottom: 60px;}
+				.logosecond p{float: right;}
+		     		.message{ display: inline-block; float: left; width: 55px; height: 55px; position: relative; top: 50px;}
+			
+			#buttonmessage{ width: 55px; height: 55px; border: none; }
+.social{
+	width: 55px; height: 55px; float: right;  display: inline-block; position: relative; right: 55px;}
+			.social-button{ border: none; width: 55px; height: 55px; display: inline-block; }
+
+
+																				/*SLIDER*/	
+.my-slider{
+	width: 100%; position: relative; z-index: 1; }
+	.my-slider img{ width: 100%; }
+			.unslider-nav{ max-width: 1920px; margin: 0 auto; position: relative; }
+   
+		
+
+																				/*WELCOME*/
+
+.welcome{
+  background: url(images/welcome.png) no-repeat; padding: 105px 0 105px 0; position: relative; z-index: 1; margin-top: -210px; }
+	.welcometattoo{ color: #fff; }
+		.welcometattoo h3{ font-size: 2.18em; line-height: 0.5; margin-left:40px; }
+			.welcometattoo  span{ font-weight: bold; }
+				.welcometattoo p{ font-size: 1.56em; margin-top: 45px; margin-left: 40px; width: 80%;}
+		           .openblock{ color: #fff; }
+						.openblock h3{ font-size: 2.18em; line-height: 0.5; margin-left: 40px;}
+							.openblock span{ font-weight: bold;}
+								.openblock p{ display: inline-block; width: 40%; font-size: 1.56em; margin-top: 40px; margin-left: 40px; float: right; }
+									.map{ margin-top: 45px; display: inline-block; float: left; width: 45%;  margin-left: 40px; }
+										.map_in{ position:relative; padding-bottom:75%; height:0; overflow:hidden; }
+											.map_in iframe{ position:absolute; top:0; left:0; width:100%; height:100%; }
+
+
+																					/*GALERY*/
+
+.galery{ background: url(images/galery.png) 0 0 no-repeat;  position: relative; z-index: 0; margin-top: -380px; padding-top: 380px;  width: 100%;}		
+	.galeryall{ width: 100%; }
+		.galeryimmage img{ width: 100%;}
+			.row{ padding-bottom: 150px; }
+				.row:first-child{padding-bottom: 50px;}
+					
+							@media screen and (max-width: 1920px) and (min-width: 991px){
+
+						.img11{ cursor: zoom-in; max-width: 350px; }
+						.img11:active{ position:fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top:0; left: 0; bottom: 100px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+						
+						.img12{ cursor: zoom-in; max-width: 350px; }
+						.img12:active{ position: fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top: 0; left: 0; bottom: 100px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+
+						.img22{ cursor: zoom-in; max-width: 350px; }
+						.img22:active{ position: fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top: 0; left: 0; bottom: 100px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+																							
+						.img31{ cursor: zoom-in; max-width: 350px; }
+						.img31:active{ position: fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top: 0; left: 0; bottom: 200px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+
+						.img32{ cursor: zoom-in; max-width: 350px; }
+						.img32:active{ position: fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top: 0; left: 0; bottom: 200px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+
+						.img33{ cursor: zoom-in; max-width: 350px; }
+						.img33:active{ position: fixed; transition-duration:.5s;
+						cursor: zoom-out; z-index: 10;top: 0; left: 0; bottom: 200px; right: 0; max-width: 600px; margin: auto;  box-shadow: 0 0 30px #000, 0 0 0 1000px rgba(0,0,0,.4);}
+																							}
+			.galerytext{ margin-left: 65px; margin-bottom: 10px; line-height: 1.3; }
+				.galerytext h3{ font-size: 2.18em; padding-bottom: 20px;}
+					.galerytext h3 span{ font-weight: bold;}
+						
+
+																					/*BLOG*/
+.blog{ background: url(images/blog.png) 0 0 no-repeat; z-index: 1; position: relative; margin-bottom: -300px; margin-top: -40px; padding-top: 40px; padding-bottom: 80px; }							
+	.blog-content{width: 100%; display: block; }
+		.blogtext h3{ font-size: 2.18em; color: #fff; width: 100%; display: block;}
+			.blogtext h3 span{ font-weight: bold; }
+				.blogtext p{ font-size: 1.56em; color: #fff; width: 90%; padding-top: 40px; }
+					.more{ background: url(images/moreblog.png) 0 0 no-repeat; color: #fff;  margin-top: 120px;	}
+						.more h4{ font-size: 1.66em; font-weight: bold; padding-left: 15px; padding-top: 20px; }
+							.moretext{ padding-bottom: 235px; width: 75%; font-size: 1.38em; padding-left: 15px; padding-top: 20px;}
+						 		.readmore{ background-color: rgba(255, 255, 255, .3); }
+						 			.readmore-text  { text-align: center; font-size: 1.74em; padding-top: 23px; padding-bottom: 23px; }
+						 				.readmore-text a{ text-decoration: none; color: #fff; }
+						 					.readmore-text a:hover{ text-decoration: none; color: #bf4f42; }
+												.readmore-text a:visited{ text-decoration: none; color: #fff; }
+																					/*CONTACT*/
+
+.contact{ background: url(images/contact.png) 0 0 no-repeat;  width: 100%; z-index: 0; position: relative; }						
+	.contacttext{ display: block; color: #fff; padding-top: 320px; }
+		.contacttext h3{ font-size: 2.18em; margin: 0;}
+			.contacttext h3 span{ font-weight: bold;}
+				.contacttext p{ font-size: 1.25em; margin-top: 45px;}
+					.logobottom a{ font-family: infinite-stroke, sans-serif; font-size: 3.7em!important; margin-top: 50px; margin-bottom: 80px;text-align: right; text-decoration: none; color: #fff;}
+						.logobottom a:hover{ text-decoration:none; color: #bf4f42; }
+							.copyright{ font-size: 1.25em; color: #fff; width: 100%; position: relative; }
+								.copyright-block p{ margin-bottom: 50px;}
+
+
+																					/*ADAPTED*/
+
+	@media screen and (max-width: 1500px){		
+	.navblock{width: 60%;}.welcome{margin-top: -130px;}header{margin-bottom: -65px;}}
+
+		@media screen and (max-width: 1300px){
+		.navblock{width: 80%;} .welcome{margin-top: -120px;} header{margin-bottom: -55px;}}
+	
+			@media screen and (max-width: 1200px){
+				.navblock{ text-align: center; } .welcome{ padding: 50px 0 70px 0; }.welcometattoo p{width: 60%; padding-bottom: 50px;}.map{ width: 35%;}.openblock p{width:50%; margin-left:0;}
+				.contact{	background: url(images/contact.png) 0 0 no-repeat; }.contacttext{ text-align: center;} .contacttext p{font-size: 1.1em;}.contacttext h3{font-size: 2em;} .copyright{font-size: 1em;}}
+
+				@media screen and (max-width: 1199px){
+					.welcome{padding-bottom: 0;}.img12{margin-bottom: 26px;}.img11{margin-bottom: 25px;}.img22{margin-bottom: 35px;}.img31{padding-bottom: 140px;}
+					.galerytext h3{ padding-bottom: 20px; } .blog{background: url(images/blog-adapted.png) 0 0 no-repeat;  padding-bottom: 30px; }.blogtext h3{text-align: center;}
+					.blogtext p{ width: 100%} .more{margin-top: 70px;} .moretext{width: 100%;} .readmore-text{ padding-top: 15px; padding-bottom: 15px;}}
+			
+					@media screen and (max-width: 992px){
+						 .navblock{ padding-top: 0;  text-align: center;} .navigation{width: 60%;} .logofirst{padding-top: 10px;} .nav-item a{ font-size: 2em; }
+						.logofirst p{text-align: center;} .logosecond p{float: none; text-align: center;} .navigation{margin-top: -50px;}}
+						
+						@media screen and (max-width: 991px){
+							.welcome{margin-top: -120px;} header{margin-bottom: -40px;} .welcome{ padding: 60px 0 20px 0;background: url(images/welcome-adapted.png) no-repeat; }
+							.welcometattoo p{width: 100%; padding-bottom: 0;} .map{ width: 40%; padding-bottom: 100px;} .openblock p{width:40%;} .welcometattoo h3{ text-align: center;} .openblock h3{ text-align: center; }
+							.galery{background: url(images/galery.png) top right repeat-y; }.galerytext h3{text-align: center;} .img31{padding-bottom: 35px;}.img32{padding-bottom: 35px;}.img33{padding-bottom: 100px;}
+							.galeryimmage{width: 50%; margin: 0 auto;} .row{padding-bottom:0;} .row:first-child{padding-bottom: 0;} .galerytext h3{ padding-bottom: 20px; } .blog{background: url(images/blog-adapted.png) 0 0 no-repeat; }.more{ margin-top: 40px; width: 60%; margin: 0 auto;}	
+							.moretext{padding-bottom: 100px; width: 100%;} .blogtext p{ font-size: 1.3em;} .blogtext p{ padding-top: 20px;} .logobottom{ text-align: left; color: #bf4f42; font-size: 3em; } .contact{ background: url(images/contact-adapted.png) 0 0 no-repeat;}}
+
+								@media screen and (max-width: 845px){
+									.logotext{font-size: 5.5em;} .social{right: 0;} .navigation{margin-top: -50px;} .navblock{ text-align: center; }}
+		
+									@media screen and (max-width: 830px){
+										.my-slider img{width: 110%;}
+										.navblock{ text-align: center; }}
+
+										@media screen and (max-width: 740px){
+											.my-slider img{width: 120%;}
+										 .navigation{margin-top: -50px;} .logofirst p{text-align: center;} .logosecond p{float: none; text-align: center;}
+											.welcome{margin-top: -100px;} header{margin-bottom: -60px;} .welcometattoo p{ font-size: 1.3em; }.openblock p{ font-size: 1.3em; } .more{ margin-top: 30px; width: 70%; margin: 0 auto;}	
+											.blogtext p{ padding-top: 10px;}}
+
+												@media screen and (max-width: 560px){
+													.my-slider img{width: 130%;}
+													.navigation{margin-top:-20px;} .logotext{font-size: 4em;} .welcome{margin-top: -93px;} header{margin-bottom: -48px;} .welcometattoo p{width: 100%; padding-bottom:0;} .openblock p{width:50%;}
+													.more{ margin-top: 20px; width: 80%; margin: 0 auto;}}
+													
+													@media screen and (max-width: 530px){
+														.welcometattoo h3{ font-size: 1.8em; } .welcometattoo p{font-size: 1.2em;} .blogtext h3{ font-size: 1.7em; } .contacttext h3{ font-size: 1.8em; } .contanttext p{ font-size: 1.3em; }}
+														
+														@media screen and (max-width: 460px){
+															.my-slider img{width: 140%;}
+															.logotext{font-size: 3em;} header{margin-bottom: -43px;}}
+
+
+
+
+
+
+
+		
